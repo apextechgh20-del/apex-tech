@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Apex Tech - Web Design in Ghana</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#f8f9fa;
+    color:#222;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+}
+
+.header{
+    background:linear-gradient(135deg,#E63946,#FF7700);
+    color:#fff;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.header i{
+    font-size:65px;
+    margin-bottom:20px;
+}
+
+.header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.header p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#fff;
+    color:#E63946;
+    padding:15px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn i{
+    margin-right:8px;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+}
+
+section{
+    padding:70px 20px;
+}
+
+section h2{
+    text-align:center;
+    font-size:34px;
+    margin-bottom:40px;
+}
+
+.services{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.card{
+    width:300px;
+    background:#fff;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+.card i{
+    font-size:50px;
+    color:#E63946;
+    margin-bottom:20px;
+}
+
+.card h3{
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.card p{
+    color:#555;
+}
+
+.why-us{
+    background:#fff;
+}
+
+.why-list{
+    max-width:700px;
+    margin:auto;
+}
+
+.why-item{
+    background:#f8f9fa;
+    padding:18px 25px;
+    margin-bottom:15px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,.05);
+    font-size:18px;
+}
+
+.why-item i{
+    color:#E63946;
+    margin-right:10px;
+}
+
+.testimonials{
+    background:#f5f5f5;
+}
+
+.testimonial-card{
+    max-width:700px;
+    margin:25px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    border-left:6px solid #E63946;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.quote{
+    font-style:italic;
+    margin-bottom:20px;
+    font-size:18px;
+}
+
+.client-info b{
+    color:#E63946;
+    font-size:18px;
+}
+
+.client-info span{
+    display:block;
+    color:#666;
+}
+
+.cta{
+    background:linear-gradient(135deg,#E63946,#FF7700);
+    color:white;
+    text-align:center;
+}
+
+.cta p{
+    margin:20px 0;
+    font-size:20px;
+}
+
+.sample-link{
+    display:inline-block;
+    margin-top:20px;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.footer p{
+    margin:10px 0;
+}
+
+.footer i{
+    color:#FF7700;
+    margin-right:8px;
+}
+
+@media(max-width:768px){
+
+.header h1{
+font-size:32px;
+}
+
+.header p{
+font-size:18px;
+}
+
+.card{
+width:100%;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="header">
+
+<i class="fas fa-laptop-code"></i>
+
+<h1>Apex Tech</h1>
+
+<p>We Build Websites That Help Your Business Grow</p>
+
+<a href="https://wa.me/233539186214?text=Hi Apex Tech, I need a website for my business" class="btn">
+
+<i class="fab fa-whatsapp"></i>
+
+Chat on WhatsApp
+
+</a>
+
+</header>
+<div class="container">
+
+    <!-- Services -->
+    <section>
+
+        <h2>What We Do</h2>
+
+        <div class="services">
+
+            <div class="card">
+                <i class="fas fa-utensils"></i>
+                <h3>Food Menu Websites</h3>
+                <p>
+                    Let your customers view your menu online and order directly through WhatsApp.
+                    Delivered in just 48 hours.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-globe"></i>
+                <h3>Business Websites</h3>
+                <p>
+                    Professional websites for shops, salons, schools, churches and businesses
+                    starting from GHS 250.
+                </p>
+            </div>
+
+            <div class="card">
+                <i class="fab fa-whatsapp"></i>
+                <h3>WhatsApp Integration</h3>
+                <p>
+                    Add one-click WhatsApp buttons so customers can contact you instantly.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+<!-- Why Choose Us -->
+
+<section class="why-us">
+
+    <div class="container">
+
+        <h2>Why Choose Apex Tech?</h2>
+
+        <div class="why-list">
+
+            <div class="why-item">
+                <i class="fas fa-bolt"></i>
+                Fast Delivery in 48 Hours
+            </div>
+
+            <div class="why-item">
+                <i class="fas fa-wallet"></i>
+                Affordable Prices from GHS 250
+            </div>
+
+            <div class="why-item">
+                <i class="fas fa-mobile-screen-button"></i>
+                Mobile-Friendly Websites
+            </div>
+
+            <div class="why-item">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp Integration
+            </div>
+
+            <div class="why-item">
+                <i class="fas fa-headset"></i>
+                Free Support After Delivery
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Testimonials -->
+
+<section class="testimonials">
+
+    <div class="container">
+
+        <h2>What Our Clients Say</h2>
+
+        <div class="testimonial-card">
+
+            <p class="quote">
+                <i class="fas fa-quote-left"></i>
+                "Apex Tech built my website in just two days. My customers can now order easily and my sales have increased."
+            </p>
+
+            <div class="client-info">
+                <b><i class="fas fa-user-circle"></i> Ama's Kitchen</b>
+                <span>Restaurant Owner, Assin Foso</span>
+            </div>
+
+        </div>
+
+        <div class="testimonial-card">
+
+            <p class="quote">
+                <i class="fas fa-quote-left"></i>
+                "The website is fast, mobile-friendly and professional. It was the best investment for my business."
+            </p>
+
+            <div class="client-info">
+                <b><i class="fas fa-user-circle"></i> Golden Phone</b>
+                <span>Phone Shop Owner</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Call To Action -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <h2>Ready to Grow Your Business Online?</h2>
+
+        <p>I can build your professional website in just 48 hours.</p>
+
+        <a href="https://wa.me/233539186214?text=Hi Apex Tech, I need a website for my business" class="btn">
+            <i class="fab fa-whatsapp"></i>
+            Chat With Me on WhatsApp
+        </a>
+
+        <br><br>
+
+        <h3>See My Work</h3>
+
+        <a href="#" class="sample-link">
+            <i class="fas fa-laptop"></i>
+            Apex Menu Sample
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <h3><i class="fas fa-laptop-code"></i> Apex Tech</h3>
+
+        <p>Professional Websites for Businesses in Ghana</p>
+
+        <p>
+            <i class="fab fa-whatsapp"></i>
+            +233 53 918 6214
+        </p>
+
+        <p>
+            <i class="fas fa-envelope"></i>
+            apextechgh20@gmail.com
+        </p>
+
+        <p>
+            <i class="fas fa-location-dot"></i>
+            Assin Foso, Ghana
+        </p>
+
+        <hr style="margin:20px 0;border:1px solid #444;">
+
+        <p>&copy; 2026 Apex Tech. All Rights Reserved.</p>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
